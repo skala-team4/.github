@@ -30,3 +30,10 @@
 | LLM        | GPT-3.5-turbo via OpenAI API                 |
 | Retrieval  | Pinecone (벡터 DB), Hugging Face KURE-v1 임베딩 |
 | Web Search | Tavily API (실시간 경쟁사 정보 수집)         |
+
+
+## Contributors 
+- 김건우 : 경쟁사 분석 에이전트
+- 김세연 : 스타트업 탐색 에이전트
+- 양석우 : 시장성 분석 에이전트
+- 이재원 : 투자 판단 에이전트, 보고서 생성 에이전트
