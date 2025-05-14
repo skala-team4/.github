@@ -1,12 +1,23 @@
-## Hi there 👋
+## 📊 시스템 동작 플로우
 
-<!--
+<img src="../flowchart.png"/>
 
-**Here are some ideas to get you started:**
+## 👥 팀원 역할
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+| 이름     | 역할                            |
+|----------|---------------------------------|
+| 김건우   | 🔍 경쟁사 분석 에이전트 구축     |
+| 김세연   | 🌱 스타트업 탐색 에이전트 구축   |
+| 양석우   | 📈 시장성 분석 에이전트 구축     |
+| 이재원   | 💸 투자 판단 에이전트 구축       |
+
+## 🧠 활용 기술
+
+| 기술 | 설명 |
+|------|------|
+| 🧩 **LangGraph** | 상태 기반 LLM 에이전트 구성 및 분기 흐름 제어 |
+| 🔗 **LangChain** | LLM 호출, 프롬프트 체인 구성 및 에이전트 통합 |
+| 🤖 **OpenAI GPT-3.5-turbo** | 평가 기준 추론 및 투자 보고서 생성 |
+| 🌐 **Tavily API** | 웹 기반 실시간 경쟁사 정보 수집 및 요약 |
+| 📦 **Pinecone** | 도메인 유사 스타트업 임베딩 검색 (벡터 DB) |
+| 🧠 **Hugging Face KURE-v1** | 한국어 기반 스타트업 설명 임베딩 모델 (`nlpai-lab/KURE-v1`) |
