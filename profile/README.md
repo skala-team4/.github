@@ -40,7 +40,7 @@
 - 이재원 : 투자 판단 에이전트, 보고서 생성 에이전트
 
 ## Directory 구조
-📦 project
+📦 project <br>
 main.py                 # LangGraph 실행 흐름 정의
 .env                    # API 키 등 환경 변수 파일
 requirements.txt        # 설치 패키지 목록
