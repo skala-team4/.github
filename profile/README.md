@@ -40,18 +40,20 @@
 - 이재원 : 투자 판단 에이전트, 보고서 생성 에이전트
 
 ## Directory 구조
-project/
-├── main.py
-├── run_main.py
-├── .env
-├── requirements.txt
-├── state_definitions.py
-├── agents/
-│   ├── __init__.py
-│   ├── startup_explorer.py
-│   ├── market_researcher.py
-│   ├── competitor_analyzer.py
-│   ├── investment_judge.py
-│   └── pdf_generator.py 
-├── investment_report.pdf
-└── README.md
+📦 project
+├── main.py                 # LangGraph 실행 흐름 정의
+├── run_main.py             # .env 로드 + main 실행 진입점
+├── .env                    # API 키 등 환경 변수 파일
+├── requirements.txt        # 설치 패키지 목록
+├── state_definitions.py    # 투자 평가용 상태 모델 정의
+
+📁 agents                   # 에이전트 모듈 폴더
+├── __init__.py
+├── startup_explorer.py     # 스타트업 탐색 (Pinecone)
+├── market_researcher.py    # 시장성 분석 (Tavily + GPT)
+├── competitor_analyzer.py  # 경쟁사 분석 (Tavily + GPT)
+├── investment_judge.py     # 투자 판단 (GPT)
+└── pdf_generator.py        # PDF 보고서 생성 (WeasyPrint)
+
+📄 investment_report.pdf     # 생성된 투자 평가 보고서 예시
+📄 README.md                 # 프로젝트 설명서
