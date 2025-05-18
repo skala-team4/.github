@@ -39,26 +39,23 @@
 - 양석우 : 시장성 분석 에이전트
 - 이재원 : 투자 판단 에이전트, 보고서 생성 에이전트
 
-<details> <summary><strong>📁 프로젝트 구조 보기</strong></summary>
-bash
-복사
-편집
+<details> 
 project/
-├── main.py                     # LangGraph 전체 실행 로직
-├── run_main.py                 # .env 불러와 main 실행하는 진입점
-├── .env                        # API 키 등 환경 변수 설정 파일
-├── requirements.txt            # 프로젝트 의존성 목록
+├── main.py                  # LangGraph 전체 실행 로직
+├── run_main.py              # .env 불러와 main 실행하는 진입점
+├── .env                     # API 키 등 환경 변수 설정 파일
+├── requirements.txt         # 프로젝트 의존성 목록
 
-├── state_definitions.py        # 전체 평가 상태(GraphState) 정의
+├── state_definitions.py     # 전체 평가 상태(GraphState) 정의
 
-├── agents/                     # 에이전트 모듈 모음
+├── agents/                  # 에이전트 모듈 모음
 │   ├── __init__.py
-│   ├── startup_explorer.py     # Pinecone 기반 스타트업 탐색
-│   ├── competitor_analyzer.py  # Tavily + GPT 경쟁사 분석
-│   ├── market_researcher.py    # Tavily + GPT 시장성 평가
-│   ├── investment_judge.py     # GPT 기반 투자 판단
-│   └── pdf_generator.py        # Markdown → PDF 보고서 생성
+│   ├── startup_explorer.py     # 스타트업 탐색 에이전트 (김세연)
+│   ├── market_researcher.py    # 시장성 분석 에이전트 (양석우)
+│   ├── competitor_analyzer.py  # 경쟁사 분석 에이전트 (김건우)
+│   ├── investment_judge.py     # 투자 판단 에이전트 (이재원)
+│   └── pdf_generator.py        # 보고서 생성 에이전트 (이재원)
 
-├── investment_report.pdf       # 최종 생성되는 투자 보고서 (예시)
-└── README.md                   # 프로젝트 설명서
+├── investment_report.pdf    # 최종 생성되는 투자 보고서 (예시)
+└── README.md                # 프로젝트 설명서
 </details>
