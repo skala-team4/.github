@@ -41,18 +41,18 @@
 
 ## Directory 구조
 📦 project <br>
-main.py                 # LangGraph 실행 흐름 정의
-.env                    # API 키 등 환경 변수 파일
-requirements.txt        # 설치 패키지 목록
-state_definitions.py    # 투자 평가용 상태 모델 정의
+main.py                 # LangGraph 실행 흐름 정의 <br>
+.env                    # API 키 등 환경 변수 파일 <br>
+requirements.txt        # 설치 패키지 목록 <br>
+state_definitions.py    # 투자 평가용 상태 모델 정의 <br>
 
-📁 agents                   # 에이전트 모듈 폴더
-__init__.py
-startup_explorer.py     # 스타트업 탐색 (Pinecone)
-market_researcher.py    # 시장성 분석 (Tavily + GPT)
-competitor_analyzer.py  # 경쟁사 분석 (Tavily + GPT)
-investment_judge.py     # 투자 판단 (GPT)
-pdf_generator.py        # PDF 보고서 생성 (WeasyPrint)
+📁 agents <br>
+__init__.py <br>
+startup_explorer.py     # 스타트업 탐색 (Pinecone) <br>
+market_researcher.py    # 시장성 분석 (Tavily + GPT) <br>
+competitor_analyzer.py  # 경쟁사 분석 (Tavily + GPT) <br>
+investment_judge.py     # 투자 판단 (GPT) <br>
+pdf_generator.py        # PDF 보고서 생성 (WeasyPrint) <br>
 
-📄 investment_report.pdf     # 생성된 투자 평가 보고서 예시
+📄 investment_report.pdf     # 생성된 투자 평가 보고서 예시 <br>
 📄 README.md                 # 프로젝트 설명서
