@@ -5,7 +5,7 @@
 ## 📊 시스템 동작 플로우
 
 <img src="../flowchart.png"/>
-<img src="../image.png"/>
+<img src="../diagram.png"/>
 
 ## 🚀 Features
 
